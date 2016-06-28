@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  var dom = require('./util').dom;
+  var _ = require('./util');
   var template = require('../templates/about.jade');
   var emitter = require('./mediator');
 
@@ -16,11 +16,11 @@
   }
 
   function createModal() {
-    options.button = dom.create('button', 'about-button', document.body);
-    options.modal = dom.create('aside', 'about-modal', document.body);
-    options.modalContent = dom.create('section', 'about-content', options.modal);
-    options.close = dom.create('button', 'about-close', options.modal);
-    options.background = dom.create('div', 'about-background', document.body);
+    options.button = _.create('button', 'about-button', document.body);
+    options.modal = _.create('aside', 'about-modal', document.body);
+    options.modalContent = _.create('section', 'about-content', options.modal);
+    options.close = _.create('button', 'about-close', options.modal);
+    options.background = _.create('div', 'about-background', document.body);
 
     options.button.innerHTML = 'About';
     options.button.setAttribute('title', 'About this map');
@@ -45,15 +45,15 @@
 
   function show() {
     active = true;
-    dom.addClass(options.modal, activeClass);
-    dom.addClass(options.background, activeClass);
+    _.addClass(options.modal, activeClass);
+    _.addClass(options.background, activeClass);
     emitter.emit('infowindow:close');
   }
 
   function hide() {
     active = false;
-    dom.removeClass(options.modal, activeClass);
-    dom.removeClass(options.background, activeClass);
+    _.removeClass(options.modal, activeClass);
+    _.removeClass(options.background, activeClass);
   }
 
   function toggle() {

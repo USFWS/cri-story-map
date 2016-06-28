@@ -1,8 +1,7 @@
 (function () {
   'use strict';
-  var imagesLoaded = require('imagesloaded');
 
-  var dom = require('./util').dom;
+  var _ = require('./util');
   var emitter = require('./mediator');
   var template  = require('../templates/detail.jade');
 
@@ -15,9 +14,9 @@
   }
 
   function createWindow() {
-    options.container = dom.create('aside', 'info-window-container', document.body);
-    options.content = dom.create('section', 'info-window-content', options.container);
-    options.toggle = dom.create('button', 'info-window-toggle', options.container);
+    options.container = _.create('aside', 'info-window-container', document.body);
+    options.content = _.create('section', 'info-window-content', options.container);
+    options.toggle = _.create('button', 'info-window-toggle', options.container);
     options.toggle.setAttribute('aria-label', 'Close');
   }
 
@@ -26,6 +25,7 @@
     options.toggle.addEventListener('click', toggle);
     emitter.on('project:click', render);
     emitter.on('infowindow:close', hide);
+    emitter.on('zoomtofullextent', hide);
   }
 
   function keydownHandler(e) {
@@ -34,13 +34,13 @@
   }
 
   function show() {
-    dom.addClass(options.container, 'active');
+    _.addClass(options.container, 'active');
     visible = true;
     emitter.emit('gallery:close', false);
   }
 
   function hide() {
-    dom.removeClass(options.container, 'active');
+    _.removeClass(options.container, 'active');
     visible = false;
   }
 
@@ -49,8 +49,8 @@
   }
 
   function render(project) {
-    imagesLoaded(options.content, show);
     options.content.innerHTML = template({ project: project.properties });
+    show();
   }
 
   module.exports.init = init;

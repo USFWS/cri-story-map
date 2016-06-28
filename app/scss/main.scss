@@ -13,11 +13,12 @@ html {
 
 @import 'vendor/normalize';
 @import 'vendor/leaflet';
+@import 'vendor/markercluster';
 @import 'colors';
 @import 'fonts';
 @import 'links';
 @import 'map';
-@import 'gallery';
+@import 'filter';
 @import 'info-window';
 @import 'about';
 @import 'themes';

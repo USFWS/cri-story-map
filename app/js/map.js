@@ -2,14 +2,13 @@
   'use strict';
 
   var L = require('leaflet');
-  var _ = require('./util')._;
-  var dom = require('./util').dom;
+  require('leaflet.markercluster');
+  var _ = require('./util');
   var emitter = require('./mediator');
-  var icons = require('./icons');
 
   L.Icon.Default.imagePath = './images';
 
-  var map, options, geographies, geogLayer;
+  var map, options, cluster;
   var defaults = {
     zoom: 5,
     element: 'map'
@@ -26,14 +25,12 @@
 
   function registerHandlers() {
     options.fullExtent.addEventListener('click', zoomToFullExtent);
-    emitter.on('project:click', displayGeography);
-    emitter.on('geographies:loaded', saveGeographies);
+    emitter.on('project:click', makeRoomForInfoWindow);
   }
 
   function destroy() {
     options.fullExtent.removeEventListener('click', zoomToFullExtent);
-    emitter.off('project:click', displayGeography);
-    emitter.off('geographies:loaded', saveGeographies);
+    emitter.off('project:click', makeRoomForInfoWindow);
   }
 
   function createMap() {
@@ -44,9 +41,9 @@
   }
 
   function createZoomToFullExtent() {
-    options.fullExtent = dom.create('button', 'zoom-to-full-extent', document.body);
+    options.fullExtent = _.create('button', 'zoom-to-full-extent', document.body);
     options.fullExtent.setAttribute('title', 'Zoom to full extent');
-    options.imgExtent = dom.create('img', 'full-extent-img', options.fullExtent);
+    options.imgExtent = _.create('img', 'full-extent-img', options.fullExtent);
     options.imgExtent.setAttribute('src', './images/full-extent.svg');
 
   }
@@ -56,58 +53,43 @@
   }
 
   function addLayers() {
-    geogLayer = L.layerGroup().addTo(map);
+    cluster = L.markerClusterGroup({
+      showCoverageOnHover: false
+    });
 
     options.markers = L.geoJson(options.data, {
       onEachFeature: function(feature, layer) {
         layer.on({ click: onMarkerClick });
-      },
-      pointToLayer: function (feature, latlng) {
-        var props = feature.properties;
-        switch(props.theme) {
-          case 'Smart Planning':
-            return L.marker(latlng, { icon: icons.orange });
-          case 'Building on Existing Partnerships':
-            return L.marker(latlng, { icon: icons.blue });
-          case 'Saving Dollars and Improving Efficiencies':
-            return L.marker(latlng, { icon: icons.green });
-          case 'Achieving Conservation':
-            return L.marker(latlng, { icon: icons.purple });
-        }
       }
-    }).addTo(map);
+    });
 
-    map.fitBounds(options.markers.getBounds(), { paddingBottomRight: [0, 300]});
-  }
-
-  function saveGeographies(geog) {
-    geographies = geog;
+    cluster.addLayer(options.markers).addTo(map);
+    map.fitBounds(cluster.getBounds(), { paddingBottomRight: [0, 300]});
   }
 
   function onMarkerClick(e) {
     emitter.emit('project:click', e.target.feature);
   }
 
-  function displayGeography(office) {
+  // Decide if we should make room on the map for the infowindow
+  function makeRoomForInfoWindow(office) {
     var clientWidth = document.documentElement.clientWidth;
-    geogLayer.clearLayers();
-    var currentGeog = L.geoJson(geographies, {
-      filter: function (feature) {
-        return feature.properties.name === office.properties.geography;
-      }
-    });
-    geogLayer.addLayer(currentGeog);
+    if (clientWidth > 1000) flyToOffice(office);
+    else flyToOffice(office, 11, 0);
+  }
 
-    // Decide if we should make room on the map for the infowindow
-    if (clientWidth > 1000)
-      map.fitBounds(currentGeog.getBounds(), { paddingBottomRight: [500, 0]});
-    else
-      map.fitBounds(currentGeog.getBounds());
-    emitter.emit('gallery:close');
+  function flyToOffice(office, zoom, padding) {
+    var zoom = zoom || 11;
+    var padding = padding || 0.135;
+    // Clone the coordinates array
+    var latlng = office.geometry.coordinates.slice(0).reverse();
+    // Account for detail panel opening
+    latlng[1] = latlng[1] + padding;
+    map.flyTo(latlng, zoom, { duration: 2 });
   }
 
   function zoomToFullExtent() {
-    map.fitBounds(options.markers.getBounds(), { paddingBottomRight: [0, 300]});
+    map.flyToBounds(cluster.getBounds(), { paddingBottomRight: [0, 300], duration: 2 });
     emitter.emit('zoomtofullextent');
   }
 
