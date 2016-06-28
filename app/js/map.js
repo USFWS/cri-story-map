@@ -26,11 +26,14 @@
   function registerHandlers() {
     options.fullExtent.addEventListener('click', zoomToFullExtent);
     emitter.on('project:click', makeRoomForInfoWindow);
+    emitter.on('filtered:projects', filter);
+    emitter.on('reset:markers', reset);
   }
 
   function destroy() {
     options.fullExtent.removeEventListener('click', zoomToFullExtent);
     emitter.off('project:click', makeRoomForInfoWindow);
+    emitter.off('filtered:projects', filter);
   }
 
   function createMap() {
@@ -58,13 +61,16 @@
     });
 
     options.markers = L.geoJson(options.data, {
-      onEachFeature: function(feature, layer) {
-        layer.on({ click: onMarkerClick });
-      }
+      onEachFeature: onEachFeature
     });
+    options.fullExtent = options.markers.getBounds();
 
     cluster.addLayer(options.markers).addTo(map);
     map.fitBounds(cluster.getBounds(), { paddingBottomRight: [0, 300]});
+  }
+
+  function onEachFeature(feature, layer) {
+    layer.on({ click: onMarkerClick });
   }
 
   function onMarkerClick(e) {
@@ -79,7 +85,7 @@
   }
 
   function flyToOffice(office, zoom, padding) {
-    var zoom = zoom || 11;
+    var zoom = zoom || 10;
     var padding = padding || 0.135;
     // Clone the coordinates array
     var latlng = office.geometry.coordinates.slice(0).reverse();
@@ -89,7 +95,28 @@
   }
 
   function zoomToFullExtent() {
-    map.flyToBounds(cluster.getBounds(), { paddingBottomRight: [0, 300], duration: 2 });
+    reset(options.data);
+  }
+
+  function filter(projects) {
+    cluster.clearLayers();
+    options.markers = L.geoJson(projects, {
+      onEachFeature: onEachFeature
+    });
+
+    cluster.addLayer(options.markers);
+    map.flyToBounds(cluster.getBounds());
+  }
+
+  function reset(projects) {
+    projects = projects || options.data;
+    cluster.clearLayers();
+    options.markers = L.geoJson(projects, {
+      onEachFeature: onEachFeature
+    });
+
+    cluster.addLayer(options.markers);
+    map.flyToBounds(cluster.getBounds());
     emitter.emit('zoomtofullextent');
   }
 
