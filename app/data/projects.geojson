@@ -90,6 +90,156 @@
             "common": "Ewa Plains `akoko",
             "status": "Endangered",
             "target": true
+          },
+          {
+            "scientific": "Bidens amplectens",
+            "common": "Ko`oko`olau",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Centaurium sebaeoides",
+            "common": "Awiwi",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Chamaesyce celastroides var. kaenana",
+            "common": "`Akoko",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Schiedea kaalae",
+            "common": "No common name",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Sesbania tomentosa",
+            "common": "Ohai",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Vigna o-wahuensis",
+            "common": "No common name",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Bonamia menziesii",
+            "common": "No common name",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Euphorbia haeleeleana",
+            "common": "`Akoko`",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Gouania meyenii",
+            "common": "No common name",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Gouania vitifolia",
+            "common": "No common name",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Hibiscus brackenridgei",
+            "common": "Ma`o hau hele",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Isodendrion pyrifolium",
+            "common": "Kula wahine noho",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Melanthera tenuifolia",
+            "common": "Nehe",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Neraudia angulata",
+            "common": "No common name",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Nototrichium humile",
+            "common": "Kulu`i",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Schiedea hookeri",
+            "common": "No common name",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Spermolepis hawaiiensis",
+            "common": "No common name",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Hylaeus sp.",
+            "common": "Yellow-faced-bee",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Metabetaeus lohena",
+            "common": "Anchialine pool shrimp",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Erythrina sandwicensis",
+            "common": "Wiliwili",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Santalum ellipticum",
+            "common": "Sandalwood",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Myoporum sandwicense var stellatum",
+            "common": "Naio",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Capparis sandwichiana",
+            "common": "Maiapilo",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Gossypium sandvicense",
+            "common": "Hawaiian cotton",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Halocaridina rubra",
+            "common": "'opae'ula",
+            "status": null,
+            "target": false
           }
         ]
       },
@@ -163,18 +313,24 @@
         "refuges": [
           "St. Croix Wetland Management District"
         ],
-        "programs": [],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services",
+          "Partners for Fish and Wildlife"
+        ],
         "region": "Midwest",
         "taxa": [
           "Butterfly"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Downlist"
+        ],
         "species": [
           {
-            "scientific": "",
-            "common": "",
-            "status": "",
-            "target": false
+            "scientific": "Lycaeides melissa samuelis",
+            "common": "Karner blue butterfly",
+            "status": "Endangered",
+            "target": true
           }
         ]
       },
@@ -197,18 +353,24 @@
         "refuges": [
           "Shiawassee National Wildlife Refuge"
         ],
-        "programs": [],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services",
+          "Partners for Fish and Wildlife"
+        ],
         "region": "Midwest",
         "taxa": [
           "Plant"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Delist"
+        ],
         "species": [
           {
-            "scientific": "",
-            "common": "",
-            "status": "",
-            "target": false
+            "scientific": "Platanthera leucophaea",
+            "common": "Eastern prairie fringed orchid",
+            "status": "Threatened",
+            "target": true
           }
         ]
       },
@@ -231,17 +393,35 @@
         "refuges": [
           "St. Marks National Wildlife Refuge"
         ],
-        "programs": [],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services",
+          "Gulf Restoration Program"
+        ],
         "region": "Southeast",
         "taxa": [
           "Amphibian/Reptile"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Prevent Extinction"
+        ],
         "species": [
           {
-            "scientific": "",
-            "common": "",
-            "status": "",
+            "scientific": "Ambystoma cingulatum",
+            "common": "Frosted flatwoods salamander",
+            "status": "Threatened",
+            "target": true
+          },
+          {
+            "scientific": "Picoides borealis",
+            "common": "Red-cockaded woodpecker",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Ursus americanus floridanus",
+            "common": "Florida black bear",
+            "status": null,
             "target": false
           }
         ]
@@ -268,17 +448,59 @@
         "refuges": [
           "Silvio O. Conte National Fish and Wildlife Refuge"
         ],
-        "programs": [],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services",
+          "Fish and Aquatic Conservation"
+        ],
         "region": "Northeast",
         "taxa": [
           "Mussel"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Downlist"
+        ],
         "species": [
           {
-            "scientific": "",
-            "common": "",
-            "status": "",
+            "scientific": "Alasmidonta heterodon",
+            "common": "Dwarf wedgemussel",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Alasmidonta varicosa",
+            "common": "Brook floater",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Strophitus undulatus",
+            "common": "Creeper",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Ligumia nasuta",
+            "common": "Eastern pondmussel",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Margaritifera margaritifera",
+            "common": "Eastern pearlshell",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Lampsilis radiata",
+            "common": "Eastern lampmussel",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Anodonta implicata",
+            "common": "Alewife floater",
+            "status": null,
             "target": false
           }
         ]
@@ -315,13 +537,57 @@
         "taxa": [
           "Mussel"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Prevent Extinction"
+        ],
         "species": [
           {
-            "scientific": "",
-            "common": "",
-            "status": "",
-            "target": false
+            "scientific": "Plethobasus cyphyus",
+            "common": "Sheepnose mussel",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Cyprogenia stegaria",
+            "common": "Fanshell",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Obovaria retusa",
+            "common": "Ring pink",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Plethobasus cicatricosus",
+            "common": "White wartyback",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Pleurobema clava",
+            "common": "Clubshell",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Plethobasus cooperianus",
+            "common": "Orangefoot pimpleback",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Epioblasma obliquata obliquata",
+            "common": "Purple cat's paw",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Cumberlandia monodonta",
+            "common": "Spectaclecase",
+            "status": "Endangered",
+            "target": true
           }
         ]
       },
@@ -368,18 +634,37 @@
           "Target Rock National Wildlife Refuge",
           "Wertheim National Wildlife Refuge"
         ],
-        "programs": [],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services",
+          "Migratory Birds",
+          "Science and Applications"
+        ],
         "region": "Northeast",
         "taxa": [
           "Bird"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Delist"
+        ],
         "species": [
           {
-            "scientific": "",
+            "scientific": "Charadrius melodus",
             "common": "Piping plover",
             "status": "Threatened",
             "target": true
+          },
+          {
+            "scientific": "Charadrius wilsonia",
+            "common": "Wilson's plover",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Charadrius nivosus",
+            "common": "Snowy plover",
+            "status": null,
+            "target": false
           }
         ]
       },
@@ -422,18 +707,54 @@
         "refuges": [
           "Ouray National Wildlife Refuge"
         ],
-        "programs": [],
+        "programs": [
+          "Ecological Services",
+          "Fish and Aquatic Conservation",
+          "National Wildlife System"
+        ],
         "region": "Mountain-Prairie",
         "taxa": [
           "Fish"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Downlist"
+        ],
         "species": [
           {
-            "scientific": "",
+            "scientific": "Xyrauchen texanus",
             "common": "Razerback sucker",
             "status": "Endangered",
             "target": true
+          },
+          {
+            "scientific": "Gila elegans",
+            "common": "Bonytail chub",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Ptychocheilus lucius",
+            "common": "Colorado pikeminnow",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Bufo boreas",
+            "common": "Western toad",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Pelecanus erythrorhynchos",
+            "common": "American white pelican",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Numenius americanus",
+            "common": "Long-billed curlew",
+            "status": null,
+            "target": false
           }
         ]
       },
@@ -457,17 +778,197 @@
           "Quivira National Wildlife Refuge",
           "Kirwin National Wildlife Refuge"
         ],
-        "programs": [],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services",
+          "Partners for Fish and Wildlife"
+        ],
         "region": "Mountain-Prairie",
         "taxa": [
           "Bird"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Delist"
+        ],
         "species": [
           {
-            "scientific": "",
+            "scientific": "Tympanuchus pallidicinctus",
             "common": "Lesser prairie-chicken",
-            "status": "",
+            "status": "Threatened",
+            "target": true
+          },
+          {
+            "scientific": "Notropis girardi",
+            "common": "Arkansas River shiner",
+            "status": "Threatened",
+            "target": false
+          },
+          {
+            "scientific": "Grus americana",
+            "common": "Whooping crane",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Sterna antillarum",
+            "common": "Least tern",
+            "status": "Endangered",
+            "target": false
+          },
+          {
+            "scientific": "Etheostoma cragini",
+            "common": "Arkansas darter",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Danaus plexippus",
+            "common": "Monarch butterfly",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Sphaeriidae",
+            "common": "Fingernail clam",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Pyganodon grandis",
+            "common": "Giant floater",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Uniomerus tetralasmus",
+            "common": "Pondhorn",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Fundulus kansae",
+            "common": "Northern plains killfish",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Ammodramus savannarum",
+            "common": "Grasshopper sparrow",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Athene cunicularia",
+            "common": "Burrowing owl",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Sturnella neglecta",
+            "common": "Western meadownlark",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Dolichonyx oryzivorus",
+            "common": "Bobolink",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Buteo regalis",
+            "common": "Ferruginous hawk",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Lanius ludovicianus",
+            "common": "Loggerhead shrike",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Rhinocheilus lecontei",
+            "common": "Longnose snake",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Leptotyphlops dulcis",
+            "common": "Texas blind snake",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Pseudacris streckeri",
+            "common": "Strecker's chorus frog",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Bufo punctatus",
+            "common": "Red-spotted toad",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Anas acuta",
+            "common": "Northern pintail",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Botaurus lentiginosus",
+            "common": "American bittern",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Bartramia longicauda",
+            "common": "Upland sandpiper",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Recurvirostra americana",
+            "common": "American avocet",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Phrynosoma cornutum",
+            "common": "Texas horned lizard",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Himantopus mexicanus",
+            "common": "Black-necked stilt",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Spiza americana",
+            "common": "Dickcissel",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Asio flammeus",
+            "common": "Short-eared owl",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Charadrius alexandrinus",
+            "common": "Snowy plover",
+            "status": null,
+            "target": false
+          },
+          {
+            "scientific": "Hybognathus placitus",
+            "common": "Plains minnow",
+            "status": null,
             "target": false
           }
         ]
@@ -491,24 +992,38 @@
         "states": [
           "Montana"
         ],
-        "refuges": [],
-        "programs": [],
+        "refuges": [
+          "Benton Lake National Wildlife Refuge"
+        ],
+        "programs": [
+          "Ecological Services",
+          "National Wildlife Refuge System",
+          "Partners for Fish and Wildlife"
+        ],
         "region": "Mountain-Prairie",
         "taxa": [
           "Fish"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Delist"
+        ],
         "species": [
           {
-            "scientific": "",
+            "scientific": "Salvelinus confluentus",
             "common": "Bull trout",
-            "status": "",
+            "status": "Threatened",
             "target": true
           },
           {
-            "scientific": "",
+            "scientific": "Urus arctos horribilis",
             "common": "Grizzly bear",
-            "status": "",
+            "status": "Threatened",
+            "target": false
+          },
+          {
+            "scientific": "Oncorhynchus clarki lewisi",
+            "common": "Western cutthroat troat",
+            "status": null,
             "target": false
           }
         ]
@@ -532,12 +1047,18 @@
         "refuges": [
           "Red Rock Lakes National Wildlife Refuge"
         ],
-        "programs": [],
+        "programs": [
+          "Ecological Services",
+          "National Wildlife Refuge System",
+          "Partners for Fish and Wildlife"
+        ],
         "region": "Mountain-Prairie",
         "taxa": [
           "Mammal"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Delist"
+        ],
         "species": [
           {
             "scientific": "Ursus arctos horribilis",
@@ -566,12 +1087,15 @@
         "refuges": [
           "Alaska Maritime National Wildlife Refuge"
         ],
-        "programs": [],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services"
+        ],
         "region": "Alaska",
         "taxa": [
           "Mammal"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": ["Delist"],
         "species": [
           {
             "scientific": "Enhydra lutris kenyoni",
@@ -600,12 +1124,17 @@
         "refuges": [
           "San Diego National Wildlife Refuge"
         ],
-        "programs": [],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services"
+        ],
         "region": "Pacific Southwest",
         "taxa": [
           "Butterfly"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": [
+          "Downlist"
+        ],
         "species": [
           {
             "scientific": "Euphydryas editha quino (=e. e. wrighti)",
@@ -634,12 +1163,15 @@
         "refuges": [
           "Antioch Dunes National Wildlife Refuge"
         ],
-        "programs": [],
+        "programs": [
+          "Ecological Services",
+          "National Wildlife Refuge System"
+        ],
         "region": "Pacific Southwest",
         "taxa": [
           "Butterfly"
         ],
-        "recoveryGoals": [],
+        "recoveryGoals": ["Prevent Extinction"],
         "species": [
           {
             "scientific": "Apodemia mormo langei",
