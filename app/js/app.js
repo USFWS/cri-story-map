@@ -14,7 +14,9 @@
 
   infoWindow.init();
   about.init();
-  filter.init();
+  filter.init({
+    visible: true
+  });
 
   emitter.on('projects:loaded', function (projectData) {
     projects = projectData;
