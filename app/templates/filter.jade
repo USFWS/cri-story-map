@@ -1,1 +1,16 @@
-p This is where all of the filtery stuff goes
+h2 Filter Projects
+p This tool uses #[strong AND] to combine the options below into a single query
+form.filter-form
+  label(for="select-a-region") Region:&nbsp;
+  select(name="select-a-region", id="select-a-region")
+    option(disabled, selected)
+
+  p The options above will be filtered further if you select a year below
+
+  label(for="select-a-year") Year:&nbsp;
+  select(name="select-a-year", id="select-a-year")
+    option(disabled, selected)
+
+  br
+  button(type="submit") Run Query
+  button(type="button" class="reset-button") Reset
