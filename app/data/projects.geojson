@@ -4,6 +4,376 @@
     {
       "type": "Feature",
       "properties": {
+        "name": "Preventing the Extinction of the Oregon Silverspot Butterfly, Oregon and Washington",
+        "description": "<p>Only five populations of <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=I01A'>Oregon silverspot butterfly</a> remain in the wild and each is at a great risk of extirpation.  The primary limiting factor is lack of suitable habitat.  The butterfly requires coastal prairie habitat with large numbers of early blue violets to feed the caterpillars and an abundance of nectar plants to support breeding adult butterflies. The project team will restore suitable habitat and introduce a population of the Oregon silverspot butterfly to the <a href-'https://www.fws.gov/refuge/nestucca_bay/'>Nestucca Bay</a> and <a href='https://www.fws.gov/refuge/willapa/'>Willapa</a> National Wildlife Refuges. The butterfly requires coastal prairie habitat with large numbers of early blue violets to feed the caterpillars and an abundance of nectar plants to support breeding adult butterflies. The team will control invasive plants and remove encroaching trees and shrubs. The team will also collect seeds and propagate plants to be planted in restored habitat. There are only five remaining populations of Oregon silverspot butterfly in existence; four in Oregon and one in northern California. Currently there are no populations of this species at either Refuge. Species that can additionally benefit are the sweat bee and obscure bumble bee.</p>",
+        "photo": "oregon-silverspot-butterfly.jpg",
+        "caption": "<a href='https://flic.kr/p/ehxHuZ'>Oregon silverspot butterfly</a> Credit: USDA",
+        "year": "2015",
+        "states": [
+          "Oregon",
+          "Washington"
+        ],
+        "refuges": [
+          "Nestucca Bay National Wildlife Refuge",
+          "Willapa National Wildlife Refuge"
+        ],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Coastal Program",
+          "Ecological Services"
+        ],
+        "region": "Pacific",
+        "taxa": [
+          "Insect"
+        ],
+        "recoveryGoals": ["Prevent Extinction"],
+        "species": [
+          {
+            "scientific": "Speyeria zerene hippolyta",
+            "common": "Oregon silverspot butterfly",
+            "status": "Threatened",
+            "target": true
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [-123.952, 45.164],
+          [-123.933, 46.407]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Restoration on the Middle Rio Grande to Benefit Rio Grande Silvery Minnow, Southwestern Willow Flycatcher and Western Yellow-billed Cuckoo",
+        "description": "<p>The goal of the project is to create new nursery habitat for the <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=E07I'>Rio Grande silvery minnow</a> by restoring the river-floodplain connection to promote seasonal flooding. This habitat will be restored and enhanced as nesting and foraging riparian habitat for the endangered <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=B094'>southwestern willow flycatcher</a> and <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=B06R'>western yellow-billed cuckoo</a> along the Middle Rio Grande corridor on <a href='https://www.fws.gov/refuge/sevilleta/'>Sevilleta National Wildlife Refuge</a>.</p><p>To increase habitat for the southwestern willow flycatcher and western yellow-billed cuckoo, the project team will remove invasive plants and plant Gooding’s willow, coyote willow and cottonwood poles in new and existing restoration areas, while ensuring water reaches forested areas in May and June by creating channels to connect the river to the riparian units. Similar projects have been completed to the north and south of this project site. Completing this project will create greatly needed “stepping stones” of habitat. Species that can additionally benefit are the New Mexico meadow jumping mouse and pecos sunflower.</p>",
+        "photo": "southwestern-willow-flycatcher.jpg",
+        "caption": "<a href='https://flic.kr/p/smLnKD'>Southwestern willow flycatcher</a> Credit: Jim Rorabaugh, USFWS",
+        "year": "2015",
+        "states": [
+          "New Mexico"
+        ],
+        "refuges": [
+          "Sevilleta National Wildlife Refuge"
+        ],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Partners for Fish and Wildlife",
+          "Ecological Services"
+        ],
+        "region": "Southwest",
+        "taxa": [
+          "Bird",
+          "Fish"
+        ],
+        "recoveryGoals": [
+          "Downlist",
+          "Delist"
+        ],
+        "species": [
+          {
+            "scientific": "Coccyzus americanus",
+            "common": "Western yellow-billed cuckoo",
+            "status": "Threatened",
+            "target": true
+          },
+          {
+            "scientific": "Empidonax traillii extimus",
+            "common": "Southwestern willow flycatcher",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Hybognathus amarus",
+            "common": "Rio Grande silvery minnow",
+            "status": "Endangered",
+            "target": true
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.973, 34.341]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Applying Strategic Habitat Conservation to the Restoration of the South Texas Coastal Corridor for the Recovery of Ocelot and Northern Aplomado Falcon",
+        "description": "<p>A recent population viability analysis suggests that the <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=A084'>ocelot</a> is likely to go extinct in Texas in under 45 years without significant intervention.  Ocelots prefer dense thornscrub communities; approximately 93% of Tamaulpan thornscrub has been altered for development in the Lower Rio Grande Valley and less than 1% remains in all of south Texas.  This project will increase the amount of suitable Tamaulipan thornscrub and coastal prairie habitat in the South Texas Coastal Corridor that is available to endangered ocelots and <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=B06V'>northern aplomado falcons</a>. The Tamaulipan thornscrub and coastal prairie are tightly interspersed across the landscape on or near both the <a href='https://www.fws.gov/refuge/laguna_atascosa/'>Laguna Atascosa</a> and <a href='https://www.fws.gov/refuge/lower_rio_grande_valley/'>Lower Rio Grande Valley</a> National Wildlife Refuges in south Texas. The Texas Department of Transportation will install strategic wildlife crossing over the next three years within the Coastal Corridor to reduce vehicle strikes, which are the most common mortality factor for ocelots. The goals of the project are to connect isolated parcels of existing, optimal habitat and restore thornscrub and coastal prairie habitat to increase landscape level habitat. Species that can additionally benefit are the Sprague’s pipit and long-billed curlew.</p>",
+        "photo": "ocelot.jpg",
+        "caption": "<a href='https://flic.kr/p/5H7Qun'>Ocelot</a> Credit: <a href='https://www.flickr.com/photos/e_monk/'>Richard</a>, <a href='https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode'>CC BY-NC-SA 2.0</a>",
+        "year": "2015",
+        "states": [
+          "Texas"
+        ],
+        "refuges": [
+          "Laguna Atascosa National Wildlife Refuge",
+          "Lower Rio Grande Valley National Wildlife Refuge"
+        ],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services",
+          "Coastal Program",
+          "Partners for Fish and Wildlife"
+        ],
+        "region": "Southwest",
+        "taxa": [
+          "Mammal",
+          "Bird"
+        ],
+        "recoveryGoals": [
+          "Prevent Extinction"
+        ],
+        "species": [
+          {
+            "scientific": "Leopardus (=felis) pardalis",
+            "common": "Ocelot",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Falco femoralis septentrionalis",
+            "common": "Northern aplomado falcon",
+            "status": "Endangered",
+            "target": true
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [-97.387, 26.286],
+          [-97.849, 26.187]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Topeka Shiner Recovery in Southwest Minnesota",
+        "description": "<p>This project will help stabilize the Minnesota population of the endangered <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=E07R'>Topeka shiner</a>. Populations of the Topeka shiner have steadily declined due to habitat destruction, sedimentation and changes in water quality, including from stream-bank bank erosion. The goals of the project are to create and restore off-channel habitat, improve fish passage through barrier removal, stabilize stream banks, make instream channel modifications and restore surrounding wetlands and grasslands. The team plans to enter into easements on 130 acres of habitat near <a href='https://www.fws.gov/refuge/windom_wmd/'>Windom Wetland Management District</a> and there is a significant amount of interest from landowners in future participation. The project will focus on continuing stabilization projects in locations where other off-channel improvements can be made that complement each other to provide both improved water quality habitat as well as refuge habitat. Species that can additionally benefit are the Blanding’s turtle, Blanchard’s cricket frog, creek heelsplitter and plains topminnow.</p>",
+        "photo": "topeka-shiner.jpg",
+        "caption": "<a href='https://flic.kr/p/vRgXZC'>Topeka shiner fishling</a> Credit: USFWS",
+        "year": "2015",
+        "states": [
+          "Minnesota"
+        ],
+        "refuges": [
+          "Windom Wetland Management District"
+        ],
+        "programs": [
+          "Partners for Fish and Wildlife",
+          "Ecological Services",
+          "National Wildlife Refuge System"
+        ],
+        "region": "Midwest",
+        "taxa": [
+          "Fish"
+        ],
+        "recoveryGoals": [
+          "Downlist"
+        ],
+        "species": [
+          {
+            "scientific": "Notropis topeka (=tristis)",
+            "common": "Topeka shiner",
+            "status": "Endangered",
+            "target": true
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.086, 43.862]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Captive Rearing the Federally Endangered Hine’s Emerald Dragonfly",
+        "description": "<p>The endangered <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=I06P'>Hine’s emerald dragonfly</a> survives in only six populations in the Midwest, with the Illinois population in the most danger of disappearing in the near-term. The Illinois population is highly valuable genetically and the loss of this population would have strong implications for the persistence of the species as a whole. This population exists in a rapidly developing urban matrix that has fragmented the habitat into small patches. The project team at the <a href='https://www.fws.gov/refuge/upper_mississippi_river/'>Upper Mississippi River National Wildlife and Fish Refuge Complex</a> and <a href='https://www.fws.gov/midwest/genoa/'>Genoa Fish Hatchery</a> will construct enclosures for egg hatching and larval placement, collect Hine’s emerald dragonfly eggs from the wild, hatch and rear in captivity, and then augment the wild population. The goals of the project are to increase the viability and preserve high genetic diversity found in the Illinois population, produce captive-reared adults from field-collected eggs, and augment wild population. The project team has identified ideal breeding habitat and it is currently in the process of being restored. Species that can additionally benefit are the Lakeside daisy, Blanding’s turtle and spotted turtle.</p>",
+        "photo": "hines-emerald-dragonfly.jpg",
+        "caption": "<a href='https://flic.kr/p/HWnRj2'>Hine’s Emerald Dragonfly</a> Credit: USFWS",
+        "year": "2015",
+        "states": [
+          "Wisconsin"
+        ],
+        "refuges": [
+          "Upper Mississippi River National Wildlife and Fish Refuge Complex"
+        ],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Fish and Aquatic Conservation",
+          "Ecological Services"
+        ],
+        "region": "Midwest",
+        "taxa": [
+          "Insect"
+        ],
+        "recoveryGoals": [
+          "Prevent Extinction"
+        ],
+        "species": [
+          {
+            "scientific": "Hine's emerald dragonfly",
+            "common": "Somatochlora hineana",
+            "status": "Endangered",
+            "target": true
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.283, 43.926]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Preventing Extinction and Improving Habitat for the Bartram’s Scrub-Hairstreak and Florida Leafwing",
+        "description": "<p>South Florida is currently seeing widespread loss of butterflies, with four species listed as endangered. <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=I07G'>Bartram’s scrub-hairstreak</a> is a small, grey butterfly dependent on a single host plant called pineland croton. This particular species of croton is only found in the globally imperiled pine rockland forest communities and can be found on Big Pine Key including in <a href='https://www.fws.gov/nationalkeydeer/'>National Key Deer Refuge</a> and in <a href='https://www.nps.gov/ever'>Everglades National Park</a>. Ninety percent of the pine rockland on mainland south Florida and much of the habitat in the Florida Keys has been cleared for development over the last 100 years and the natural fire regiment has been drastically interrupted. The <a href='http://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=I087'>Florida leafwing</a> also shares overlapping habitat with the hairstreak and will benefit from this project.</p><p>The goals of the project are to enhance habitat to prevent local extinction and benefit potential reintroductions of target species and create new ‘stepping stone’ habitat patches. Species that can additionally benefit are the <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=A003'>Key deer</a>, <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=A0AA'>marsh rabbit</a>, <a href='https://www.fws.gov/verobeach/msrppdfs/garbers.pdf'>garber’s spurge</a>, <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=Q0E7'>wedge spurge</a>, <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=Q14H'>sand flax</a>, <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=Q0E3'>Big Pine partridge pea</a> and Keys ribbon snake.</p>",
+        "photo": "bartrams-scrub-hairstreak.jpg",
+        "caption": "<a href='https://flic.kr/p/oBeVjQ'>Bartram's scrub-hairstreak</a> Credit: Holly Salvato, USFWS",
+        "year": "2015",
+        "states": [
+          "Florida"
+        ],
+        "refuges": [
+          "National Key Deer Refuge"
+        ],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services"
+        ],
+        "region": "Southeast",
+        "taxa": [
+          "Insect"
+        ],
+        "recoveryGoals": [
+          "Prevent Extinction"
+        ],
+        "species": [
+          {
+            "scientific": "Strymon acis bartrami",
+            "common": "Bartram's hairstreak butterfly",
+            "status": "Endangered",
+            "target": true
+          },
+          {
+            "scientific": "Anaea troglodyta floridalis",
+            "common": "Florida leafwing butterfly",
+            "status": "Endangered",
+            "target": true
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-81.393, 24.733]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mountain Sweet Pitcher Plant Recovery Initiative",
+        "description": "<p>Mountain bogs are widely accepted as among the rarest and most imperiled habitat types in the southeastern United States, and hotspots for biodiversity, endemism and rare and declining plant species, including the <a href='http://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=Q2I0'>mountain sweet pitcher plant</a>. There are only four natural populations of this plant left in North Carolina, down from 23, and five known sites in South Carolina. There is a need to increase the size of partially protected sites to be fully protected in order to bring the species closer to the recovery goal of having four protected and self-sustaining populations. The project team will work with a local land conservancy to identify parcels for permanent protection through easements, restore protected habitat to conditions beneficial for the mountain sweet pitcher plant and actively manage populations in order to become self-sustaining, including at <a href='https://www.fws.gov/refuge/mountain_bogs/'>Mountain Bogs National Wildlife Refuge</a>. The team will implement regular prescribed burning and mechanical removal of invasive species. In addition, the team will remove material and restore a previously filled wetland and augment the mountain sweet pitcher plant populations from on-site soil. Species that can additionally benefit are the swamp pink, montane purple pitcher plant and bog rose orchid.</p>",
+        "photo": "mountain-sweet-pitcher-plant.jpg",
+        "caption": "<a href='https://flic.kr/p/HjEw8f'>Mountain sweet pitcher-plant</a> Credit: Gary Peeples, USFWS",
+        "year": "2015",
+        "states": [
+          "North Carolina"
+        ],
+        "refuges": [
+          "Mountain Bogs National Wildlife Refuge"
+        ],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services"
+        ],
+        "region": "Southeast",
+        "taxa": [
+          "Plant"
+        ],
+        "recoveryGoals": [
+          "Prevent Extinction"
+        ],
+        "species": [
+          {
+            "scientific": "Sarracenia rubra ssp. jonesii",
+            "common": "Mountain sweet pitcher-plant",
+            "status": "Endangered",
+            "target": true
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.481, 35.219]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seabeach Amaranth Restoration on Atlantic Coast National Wildlife Refuges",
+        "description": "<p><a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=Q2MZ'>Seabeach amaranth</a> is endemic to the Atlantic Coast from South Carolina to Massachusetts. This annual plant species is vulnerable to climate change, sea level rise, development of beachfront property and increased beach use. Range-wide the species has rapidly declined over the past 13 years from over 200,000 plants recorded each year to only 1,320 plants in 2013, a 99.5% reduction. There is an urgent need to collect seeds from as many populations as possible in order to preserve the genetic diversity from across the range of the species. In order to continue its recovery, it is necessary to establish more self-sustaining populations in natural areas that are less vulnerable to man-made threats and more resilient to climate change and sea level rise.</p><p>The project team from multiple national wildlife refuges (<a href='https://www.fws.gov/refuge/Monomoy/'>Monomoy</a>, <a href='https://www.fws.gov/refuge/nantucket/'>Nantucket</a>, <a href='https://www.fws.gov/refuge/edwin_b_forsythe/'>Edwin B. Forsythe</a>, <a href='https://www.fws.gov/refuge/cape_may/'>Cape May</a>, <a href='https://www.fws.gov/refuge/chincoteague/'>Chincoteague</a> and <a href='https://www.fws.gov/refuge/cape_romain/'>Cape Romain</a>) will collect seeds, propagate plants, plant seed plots in protected areas and install protective fencing. The goals of the project are to reestablish the species throughout its natural range. Seeds that are not used immediately for restoration will be placed in long-term storage at the North Carolina Botanical Gardens and the National Center for Genetic Resource Preservation. Species that can additionally benefit are the <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=B079'>piping plover</a>, <a href='http://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=I02C'>northeastern tiger beetle</a> and <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=C00U'>loggerhead sea turtle</a>.</p>",
+        "photo": "seabeach-amaranth.jpg",
+        "caption": "<a href='https://flic.kr/p/J8kHJR'>Seabeach amaranth</a> Credit: Dale Suiter, USFWS",
+        "year": "2015",
+        "states": [
+          "Massachusetts",
+          "Rhode Island",
+          "New York",
+          "New Jersey",
+          "Virginia",
+          "North Carolina",
+          "South Carolina"
+        ],
+        "refuges": [
+          "Monomoy National Wildlife Refuge",
+          "Nantucket National Wildlife Refuge",
+          "Edwin B. Forsythe National Wildlife Refuge",
+          "Cape May National Wildlife Refuge",
+          "Chincoteague National Wildlife Refuge",
+          "Cape Romain National Wildlife Refuge"
+        ],
+        "programs": [
+          "National Wildlife Refuge System",
+          "Ecological Services"
+        ],
+        "region": "Southeast",
+        "taxa": [
+          "Plant"
+        ],
+        "recoveryGoals": [
+          "Prevent Extinction"
+        ],
+        "species": [
+          {
+            "scientific": "Amaranthus pumilus",
+            "common": "Seabeach amaranth",
+            "status": "Threatened",
+            "target": true
+          }
+        ]
+      },
+      "geometry": {
+        "type": "MultiPoint",
+        "coordinates": [
+          [-69.993, 41.569],
+          [-70.049, 41.390],
+          [-74.182, 39.692],
+          [-74.899, 39.086],
+          [-75.317, 37.928],
+          [-79.437, 33.019]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "name": "Increasing Populations of Western Snowy Plovers and Streaked Horned Larks on Willapa National Wildlife Refuge and Adjacent Coastal Beaches",
         "description": "<p>The project team will measurably improve the number of breeding pairs of threatened <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=B07C'>Western snowy plovers</a> at the Leadbetter Point unit of <a href='https://www.fws.gov/refuge/willapa/'>Willapa National Wildlife Refuge</a> in Washington State and enhance their reproductive success towards achieving recovery criteria. The project will also improve the number of <a href='https://ecos.fws.gov/tess_public/profile/speciesProfile.action?spcode=B0B3'>horned lark</a> breeding territories at Leadbetter Point to prevent local extirpation of the Washington Coast population. This will be accomplished through intensive habitat management of breeding and wintering habitats and reductions of disturbance stressors at the refuge and nearby <a href='http://parks.state.wa.us/537/Leadbetter-Point'>Leadbetter Point State Park</a>. Habitat restoration is anticipated to be on a scale where dynamic ecological processes can sustain the ecosystem in a natural state that requires limited future maintenance. These efforts can additionally benefit the state’s only known population of pink sand verbena plants, located at the refuge.</p>",
         "photo": "western-snowy-plover.jpg",
@@ -320,7 +690,7 @@
         ],
         "region": "Midwest",
         "taxa": [
-          "Butterfly"
+          "Insect"
         ],
         "recoveryGoals": [
           "Downlist"
@@ -1130,7 +1500,7 @@
         ],
         "region": "Pacific Southwest",
         "taxa": [
-          "Butterfly"
+          "Insect"
         ],
         "recoveryGoals": [
           "Downlist"
@@ -1169,7 +1539,7 @@
         ],
         "region": "Pacific Southwest",
         "taxa": [
-          "Butterfly"
+          "Insect"
         ],
         "recoveryGoals": ["Prevent Extinction"],
         "species": [
