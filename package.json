@@ -27,7 +27,7 @@
     "prestart": "rimraf dist && node build/create-dist && npm run build:sass && npm run fonts && npm run jsonmin",
     "start": "npm run optimize & npm run watch:img & npm run watch:sass & npm run watchify & npm run watch:json & npm run serve",
     "inspect": "browserify --full-paths app/js/app.js | uglifyjs -mc | Discify --open",
-    "publish:demo": "npm run build && gh-pages -d dist"
+    "publish": "npm run build && gh-pages -d dist"
   },
   "keywords": [
     "Story Map",
@@ -69,9 +69,12 @@
     "install": "^0.8.1",
     "leaflet": "^1.0.0-rc.1",
     "leaflet.markercluster": "^1.0.0-rc.1.0",
+    "lodash.clone": "^4.3.2",
     "lodash.defaults": "^4.0.0",
     "lodash.find": "^4.0.1",
+    "lodash.intersection": "^4.2.0",
     "lodash.sample": "^4.1.1",
+    "lodash.union": "^4.4.0",
     "npm": "^3.10.2",
     "underscore.string": "^3.2.3",
     "xhr": "^2.2.0"
